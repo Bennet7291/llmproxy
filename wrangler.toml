@@ -1,0 +1,12 @@
+name = "ai-proxy"
+main = "src/index.ts"
+compatibility_date = "2026-08-10"
+compatibility_flags = ["nodejs_compat"]
+
+[[durable_objects.bindings]]
+name = "KEY_ROTATION_MANAGER"
+class_name = "KeyRotationManager"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["KeyRotationManager"]
