@@ -1,4 +1,4 @@
-name = "ai-proxy"
+name = "llm"
 main = "src/index.ts"
 compatibility_date = "2026-08-10"
 compatibility_flags = ["nodejs_compat"]
@@ -9,4 +9,4 @@ class_name = "KeyRotationManager"
 
 [[migrations]]
 tag = "v1"
-new_classes = ["KeyRotationManager"]
+new_sqlite_classes = ["KeyRotationManager"]
